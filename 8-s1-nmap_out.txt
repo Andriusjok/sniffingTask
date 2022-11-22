@@ -1,0 +1,25 @@
+# Nmap 7.80 scan initiated Wed Nov 23 01:13:47 2022 as: nmap --script http-headers -oN 8-s1-nmap_out.txt 172.16.0.16
+Nmap scan report for L1-anjo5726.cloud (172.16.0.16)
+Host is up (0.00025s latency).
+Not shown: 994 closed ports
+PORT    STATE SERVICE
+21/tcp  open  ftp
+22/tcp  open  ssh
+25/tcp  open  smtp
+53/tcp  open  domain
+80/tcp  open  http
+| http-headers: 
+|   Server: nginx/1.18.0
+|   Date: Tue, 22 Nov 2022 23:13:48 GMT
+|   Content-Type: text/html
+|   Content-Length: 612
+|   Last-Modified: Tue, 22 Nov 2022 21:48:31 GMT
+|   Connection: close
+|   ETag: "637d43af-264"
+|   Accept-Ranges: bytes
+|   
+|_  (Request type: HEAD)
+111/tcp open  rpcbind
+MAC Address: 02:00:AC:10:00:10 (Unknown)
+
+# Nmap done at Wed Nov 23 01:13:47 2022 -- 1 IP address (1 host up) scanned in 0.52 seconds
