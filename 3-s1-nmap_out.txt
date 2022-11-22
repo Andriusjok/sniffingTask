@@ -1,0 +1,16 @@
+# Nmap 7.80 scan initiated Wed Nov 23 01:07:47 2022 as: nmap -sV -oN 3-s1-nmap_out.txt 172.16.0.16
+Nmap scan report for L1-anjo5726.cloud (172.16.0.16)
+Host is up (0.00027s latency).
+Not shown: 994 closed ports
+PORT    STATE SERVICE VERSION
+21/tcp  open  ftp     ProFTPD
+22/tcp  open  ssh     OpenSSH 8.4p1 Debian 5+deb11u1 (protocol 2.0)
+25/tcp  open  smtp    Postfix smtpd
+53/tcp  open  domain  ISC BIND 9.16.33 (Debian Linux)
+80/tcp  open  http    nginx 1.18.0
+111/tcp open  rpcbind 2-4 (RPC #100000)
+MAC Address: 02:00:AC:10:00:10 (Unknown)
+Service Info: Host:  debian.cloud; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Nov 23 01:07:59 2022 -- 1 IP address (1 host up) scanned in 11.84 seconds

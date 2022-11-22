@@ -1,0 +1,5 @@
+# Nmap 7.80 scan initiated Wed Nov 23 01:08:42 2022 as: nmap -sP -oN 4-s1-nmap_out.txt 172.16.0.16
+Nmap scan report for L1-anjo5726.cloud (172.16.0.16)
+Host is up (0.00075s latency).
+MAC Address: 02:00:AC:10:00:10 (Unknown)
+# Nmap done at Wed Nov 23 01:08:42 2022 -- 1 IP address (1 host up) scanned in 0.04 seconds
