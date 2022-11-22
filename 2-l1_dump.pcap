@@ -1,0 +1,23 @@
+01:06:18.098448 ARP, Request who-has L1-anjo5726.cloud tell router1.cloud, length 28
+01:06:18.098497 ARP, Reply L1-anjo5726.cloud is-at 02:00:ac:10:00:10 (oui Unknown), length 28
+01:06:18.164182 ARP, Request who-has router1.cloud tell L1-anjo5726.cloud, length 28
+01:06:18.164955 ARP, Reply router1.cloud is-at 02:00:ac:10:00:01 (oui Unknown), length 28
+01:06:18.677128 IP L1-anjo5726.cloud.52998 > router1.cloud.domain: 8753+ PTR? 16.0.16.172.in-addr.arpa. (42)
+01:06:18.678338 IP router1.cloud.domain > L1-anjo5726.cloud.52998: 8753* 1/0/0 PTR L1-anjo5726.cloud. (73)
+01:06:18.678500 IP L1-anjo5726.cloud.47574 > router1.cloud.domain: 57803+ PTR? 1.0.16.172.in-addr.arpa. (41)
+01:06:18.679396 IP router1.cloud.domain > L1-anjo5726.cloud.47574: 57803* 1/0/0 PTR router1.cloud. (68)
+01:06:44.320835 ARP, Request who-has L1-anjo5726.cloud tell S1-anjo5726.cloud, length 28
+01:06:44.320898 ARP, Reply L1-anjo5726.cloud is-at 02:00:ac:10:00:10 (oui Unknown), length 28
+01:06:45.300683 IP L1-anjo5726.cloud.33927 > router1.cloud.domain: 4363+ PTR? 17.0.16.172.in-addr.arpa. (42)
+01:06:45.301812 IP router1.cloud.domain > L1-anjo5726.cloud.33927: 4363* 1/0/0 PTR S1-anjo5726.cloud. (73)
+01:06:49.928618 IP L1-anjo5726.cloud.ntp > ntp59.kashra-server.com.ntp: NTPv4, Client, length 48
+01:06:49.928670 IP L1-anjo5726.cloud.ntp > 5.20.0.21.ntp: NTPv4, Client, length 48
+01:06:49.930912 IP 5.20.0.21.ntp > L1-anjo5726.cloud.ntp: NTPv4, Server, length 48
+01:06:49.965731 IP ntp59.kashra-server.com.ntp > L1-anjo5726.cloud.ntp: NTPv4, Server, length 48
+01:06:50.420645 IP L1-anjo5726.cloud.51110 > router1.cloud.domain: 17498+ PTR? 68.85.89.51.in-addr.arpa. (42)
+01:06:50.423431 IP router1.cloud.domain > L1-anjo5726.cloud.51110: 17498 1/2/4 PTR ntp59.kashra-server.com. (215)
+01:06:50.424465 IP L1-anjo5726.cloud.46178 > router1.cloud.domain: 9744+ PTR? 21.0.20.5.in-addr.arpa. (40)
+01:06:50.437875 IP router1.cloud.domain > L1-anjo5726.cloud.46178: 9744 NXDomain 0/1/0 (100)
+01:06:55.028242 ARP, Request who-has router1.cloud tell L1-anjo5726.cloud, length 28
+01:06:55.029079 ARP, Reply router1.cloud is-at 02:00:ac:10:00:01 (oui Unknown), length 28
+

@@ -1,0 +1,13 @@
+01:08:42.649763 ARP, Request who-has L1-anjo5726.cloud tell S1-anjo5726.cloud, length 28
+01:08:42.649790 ARP, Reply L1-anjo5726.cloud is-at 02:00:ac:10:00:10 (oui Unknown), length 28
+01:08:43.573623 IP L1-anjo5726.cloud.54696 > router1.cloud.domain: 16505+ PTR? 16.0.16.172.in-addr.arpa. (42)
+01:08:43.574769 IP router1.cloud.domain > L1-anjo5726.cloud.54696: 16505* 1/0/0 PTR L1-anjo5726.cloud. (73)
+01:08:43.575034 IP L1-anjo5726.cloud.37083 > router1.cloud.domain: 43902+ PTR? 17.0.16.172.in-addr.arpa. (42)
+01:08:43.575954 IP router1.cloud.domain > L1-anjo5726.cloud.37083: 43902* 1/0/0 PTR S1-anjo5726.cloud. (73)
+01:08:44.596480 IP L1-anjo5726.cloud.58830 > router1.cloud.domain: 45577+ PTR? 1.0.16.172.in-addr.arpa. (41)
+01:08:44.597677 IP router1.cloud.domain > L1-anjo5726.cloud.58830: 45577* 1/0/0 PTR router1.cloud. (68)
+01:08:48.626440 ARP, Request who-has L1-anjo5726.cloud tell router1.cloud, length 28
+01:08:48.626476 ARP, Reply L1-anjo5726.cloud is-at 02:00:ac:10:00:10 (oui Unknown), length 28
+01:08:48.692205 ARP, Request who-has router1.cloud tell L1-anjo5726.cloud, length 28
+01:08:48.692964 ARP, Reply router1.cloud is-at 02:00:ac:10:00:01 (oui Unknown), length 28
+
